@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-use-before-define": "off",
+    "arrow-parens": "off",
+    "func-names": "off",
+    "consistent-return": "off",
+    "no-param-reassign": "warn"
+  }
+}

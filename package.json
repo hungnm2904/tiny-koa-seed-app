@@ -1,0 +1,40 @@
+{
+  "name": "split-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "npm run lint",
+    "prepush": "npm run lint",
+    "lint": "eslint --ignore-path .gitignore 'app/**/*.js'",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "tinyRush",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "http-errors": "^1.6.3",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-morgan": "^1.0.1",
+    "koa-passport": "^4.0.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.12",
+    "passport-http-bearer": "^1.0.1",
+    "winston": "^3.0.0-rc4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "@types/koa": "^2.0.44",
+    "@types/koa-router": "^7.0.27",
+    "@types/mongoose": "^5.0.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "husky": "^0.14.3",
+    "nodemon": "^1.17.3"
+  }
+}
